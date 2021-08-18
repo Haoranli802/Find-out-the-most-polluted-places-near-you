@@ -1,5 +1,5 @@
 # Find-out-the-most-polluted-places-near-you
-This python project is based on uci ics ICS32A project #2(stop here and do not look at any part of the project if you are enrolled in that course). 
+This python project is based on uci ics ICS32A project #2(stop here and do not look at any part of the project if you are enrolled in this course). 
 It aims to find out the most polluted places near a designated location based on the AQI(Air Quality Index) value.
 It takes in six inputs, and the inputs has to be in their correct format. 
 
