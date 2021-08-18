@@ -1,5 +1,5 @@
 # Find-out-the-most-polluted-places-near-you
-This python project is based on uci ics ICS32A project #2(stop here and do not look at any part of the project if you are enrolled in this course). 
+This python project is based on uci ics ICS32A project #3(stop here and do not look at any part of the project if you are enrolled in this course). 
 It aims to find out the most polluted places near a designated location based on the AQI(Air Quality Index) value.
 It takes in six inputs, and the inputs has to be in their correct format. 
 
@@ -114,3 +114,10 @@ AQI 148
 AQI 134
 33.987827/N 117.3369/W
 306, Massachusetts Avenue, Canyon Crest Heights, Riverside, Riverside County, California, 92521, United States
+
+
+
+Implementing instructions:
+The python projects should be keep together in the same folder.
+The project3.py file is the main executable file to start taking inputs and output outputs. 
+The .json files should be keep together in the same folder as the python files, they are for file inputs. 
