@@ -52,67 +52,132 @@ information about the first n of them.
 
 
 A complete example using only website connections:
+input:
 
 CENTER NOMINATIM Bren Hall, Irvine, CA
+
 RANGE 100
+
 THRESHOLD 50
+
 MAX 5
+
 AQI PURPLEAIR
+
 REVERSE NOMINATIM
+
+Output:
+
 CENTER 33.6432477/N 117.84186526398847/W
+
 AQI 161
+
 34.64158/N 117.82862/W
+
 Challenger Middle School, 170th Street East, Lake Los Angeles, California, 93591, United States
+
 AQI 158
+
 32.567635/N 117.13274/W
+
 1690, Seacoast Drive, Imperial Beach, San Diego County, California, 91932, United States
+
 AQI 130
+
 34.155277/N 118.56824/W
+
 4648, Nomad Drive, Los Angeles, California, 91364, United States
+
 AQI 129
+
 34.28839/N 118.44374/W
+
 100, Fermoore Street, San Fernando, California, 91340, United States
+
 AQI 98
+
 34.110126/N 118.21719/W
+
 862, Tacuba Street, Los Angeles, California, 90065, United States
 
+
 Another example using local json files for center and api(private information is blocked):
+input:
+
 CENTER FILE /Users/******/Desktop/project3/nominatim1.json
+
 RANGE 100
+
 THRESHOLD 70
+
 MAX 10
+
 AQI FILE /Users/******/Desktop/project3/data.json
+
 REVERSE NOMINATIM
+
+Output:
+
 CENTER 33.64324045/N 117.84185686276017/W
+
 AQI 501
+
 33.99/N 118.17824/W
+
 4798, East 52nd Drive, Maywood, California, 90270, United States
+
 AQI 187
+
 33.88965/N 118.413376/W
+
 204, 19th Street, Manhattan Beach, California, 90266, United States
+
 AQI 173
+
 34.137314/N 118.07097/W
+
 501, Michigan Boulevard, Chapman Woods, El Monte, California, 91107, United States
+
 AQI 171
+
 34.0244/N 118.51302/W
+
 Annenberg Beach House, Pacific Coast Highway, Santa Monica, California, 90402, United States
+
 AQI 167
+
 33.73609/N 117.44975/W
+
 Laundry & Shower, Skyview Circle, Riverside County, California, United States
+
 AQI 159
+
 34.18076/N 118.50706/W
+
 8, Metro Orange Line Bikeway, Los Angeles, California, 91406-5441, United States
+
 AQI 159
+
 34.045525/N 118.71656/W
+
 24592, Mariposa Circle, California, 90265, United States
+
 AQI 153
+
 33.73571/N 118.33903/W
+
 3466, Coolheights Drive, Rancho Palos Verdes, California, 90275, United States
+
 AQI 148
+
 34.18794/N 118.33993/W
+
 2654, Pacific Avenue, Vega, Burbank, California, 91505, United States
+
 AQI 134
+
 33.987827/N 117.3369/W
+
 306, Massachusetts Avenue, Canyon Crest Heights, Riverside, Riverside County, California, 92521, United States
 
 
